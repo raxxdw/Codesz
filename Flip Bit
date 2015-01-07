@@ -1,0 +1,22 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    long long int num ; 
+    int n;
+    cin>>n;
+    while(n)
+        {
+        cin>>num;
+        num = num ^(4294967295);
+        cout<<num<<endl;
+        n--;
+    }
+    return 0;
+}
